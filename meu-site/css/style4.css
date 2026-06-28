@@ -1,0 +1,209 @@
+:root{
+    --background: #FFFFFF;
+    --background:#66ba79;
+    --background:#47544a;
+    --fonte-titulo: .playfair-display-montserrat;
+    --fonte-corpo: sans-serif;
+}
+body { font-family: var(--fonte-corpo); }
+h1, h2, h3 { font-family: var(--fonte-titulo); }
+*{
+box-sizing:border-box;
+}
+html{
+
+font-size:16px;
+
+}
+p{
+
+line-height:1.6;
+
+}
+h1,h2{
+
+letter-spacing:1px;
+
+}
+h1{
+
+text-shadow:2px 2px 5px rgba(0,0,0,.4);
+
+}
+
+a{
+    color: #000000;
+}
+p,h1{
+
+    color: #FFFFFF;
+   
+    z-index: 2;
+
+    
+}
+#body{
+        background-color: #FFFFFF;
+    margin-top: 300px;
+    z-index: 1;
+}
+.bar{
+    display: inline-block;
+    background-color: #47544a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95px;
+    z-index: 5;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+}
+.op1{
+    left: 10px;
+}
+.op2{
+    left: 110px;
+}
+.op3{
+    left: 210px;
+}
+.op4{
+    left: 310px;
+}
+.op5{
+    left: 410px;
+}
+.op6{
+    left: 510px;
+}
+.d1{
+     display: inline-block;
+     width: 900px;
+    height: 444px;
+    position: absolute;
+    top: 120px;
+    background-image: linear-gradient(to right, #000000, #47544a);
+    border-radius: 10px 10px 10px 10px;
+    z-index: 2;
+}
+.earth{
+    display: inline-block;
+    background-image: url(https://i.pinimg.com/736x/4b/95/2e/4b952ecfa9afdcdc512abe65940f76e0.jpg);
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    width: 400px;
+    height: 414px;
+    border-radius:50%;
+    background-position: 50% 50%;
+    margin: hidden;
+    z-index: 4;
+}
+.text{
+    display: inline-block;
+     width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 484px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 3;
+}
+.scroll{
+    display: inline-block;
+    width:100%;
+    height: 450px;
+    overflow-x: scroll;
+    position: absolute;
+    top: 590px;
+    background-color: #66ba79;
+
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    top: 105px;
+}
+.img1{
+    background-image: url(https://images.unsplash.com/photo-1730748119498-73e785539918?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvcmVzdGElMjA0a3xlbnwwfHwwfHx8MA%3D%3D);
+}
+.img2{
+    background-image: url(https://t4.ftcdn.net/jpg/02/43/40/15/360_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+    left: 300px;
+
+}
+.img3{
+    background-image: url("https://s2-g1.glbimg.com/rQoMcRFollZ5JIqzDSgixj9BuzA=/0x0:1325x747/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/H/f/6gYf92SgKCOcVFpSS4Kg/whatsapp-image-2024-10-03-at-10.15.35.jpeg");
+    left: 600px;
+
+}
+.img4{
+    background-image: url(https://photos.wikimapia.org/p/00/01/89/05/39_big.jpg);
+    left: 900px;
+
+}
+.img5{
+    background-image: url(https://s2.glbimg.com/kjKWXzIIqxOmS3noZbDvyk0Dgr0=/602x400/e.glbimg.com/og/ed/f/original/2015/04/24/hidreletrica_jirau_rondonia.jpg);
+    left: 1200px;
+
+}
+.img6{
+    background-image: url(https://fatoregional.com.br/wp-content/uploads/2019/05/desmatamento-ibama-e1559219361707.jpg);
+    left: 1500px;
+
+}
+.img7{
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/8c/2021/06/03/crianca-plantando-com-seu-pai-1622761483728_v2_450x800.jpg);
+    left: 1800px;
+    background-position: 45% 88%;
+
+}
+.img8{
+    background-image: url("https://s2-casavogue.glbimg.com/13bVVFqUM0NCzAmiULacF6Dhvw8=/0x0:1936x1549/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d72fd4bf0af74c0c89d27a5a226dbbf8/internal_photos/bs/2023/r/F/OUySeiT4q8Wj7VjqCMAg/03-as-paisagens-naturais-mais-lindas-do-brasil-chapada-dos-veadeiros-min.jpg");
+    left:2100px;
+
+}
+.img9{
+    background-image: url(https://www.editoraforum.com.br/wp-content/uploads/2018/07/sanemaento-basico-marco.png);
+    left: 2400px;
+
+}
+.img10{
+    background-image: url(https://i.pinimg.com/236x/54/7a/66/547a66a8ec5fef0f2f4f8e5616c13242.jpg);
+    left: 2700px;
+
+}
+.img11{
+    background-image: url(https://blog.horizontepetstore.com.br/wp-content/uploads/2024/01/Coryphaspiza_melanotis-Black-masked_Finch-Tipos-de-Passaros-Imagem-de-corpo-de-texto.webp);
+    left: 3000px;
+    background-position: 40% 40%;
+
+}
+.img12{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwws7EOWqK85yBo3HOO8_cfNDbgNBc6_0yAQ&s);
+    left: 3300px;
+
+}
+figcaption, .alt{
+  color: yellow;
+}
+.footer{
+    background-color: aliceblue;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    min-height: fit-content;
+    position: absolute;
+    top:1030px;
+}

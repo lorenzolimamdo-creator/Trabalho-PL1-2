@@ -1,0 +1,214 @@
+:root{
+    --background:#66ba79;
+     --background:#52ed73;
+     --border: #ff5722;
+    --background-d1:#FFFFFF;
+    --fonte-titulo: .playfair-display-montserrat;
+    --fonte-corpo: sans-serif;
+}
+html{
+
+font-size:16px;
+
+}
+p{
+
+line-height:1.6;
+
+}
+h1,h2{
+
+letter-spacing:1px;
+
+}
+h1{
+
+text-shadow:2px 2px 5px rgba(0,0,0,.4);
+
+}
+a{
+    color: black;
+}
+body { font-family: var(--fonte-corpo); }
+h1, h2, h3 { font-family: var(--fonte-titulo); }
+*{
+box-sizing:border-box;
+}
+#body{
+    margin: 0%;
+}
+.bar{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 8px;
+    left: 400px;
+    width: 620px;
+    height: 65px;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 4;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 10px;
+    
+}
+.op1{
+    left: 50px;
+}
+.op2{
+    left: 140px;
+}
+.op3{
+    left: 230px;
+}
+.op4{
+    left: 320px;
+}
+.op5{
+    left: 410px;
+}
+.op6{
+    left: 500px;
+}
+.d1{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    min-height: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 460px;
+    background-color: rgba(255, 255, 255, 0.558);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 3;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input,
+select,
+textarea{
+    padding: 10px;
+    border: 2px solid #6ca86c;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+input:focus,
+select:focus,
+textarea:focus{
+    outline: 3px solid #52ed73;
+    border-color: #ff5722;
+}
+button{
+    width: 120px;
+    padding: 10px;
+    background-color: #66ba79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: #66ba79;
+}
+.aviso{
+    background-color: #FFFFFF;
+    border: 2px solid #ff5722;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container{
+    background-image: radial-gradient(#FFFFFF, #52ed73);
+    min-width: 100%;
+    min-height: 1750px;
+    z-index: 1;
+}
+.d2{
+     display: inline-block;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+     background-color:#FFFFFF;
+    border-radius: 46%;
+    top: 100px;
+    z-index: 2;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    display: inline-block;
+     border-radius: 50%;
+     position: absolute;
+}
+.img1{
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/8c/2021/06/03/crianca-plantando-com-seu-pai-1622761483728_v2_450x800.jpg);
+    width: 290px;
+    height: 290px;
+    top: 60px;
+    left: 110px;
+    background-position: 35% 88% ;
+}
+.img2{
+    background-image: url("https://s2-casavogue.glbimg.com/13bVVFqUM0NCzAmiULacF6Dhvw8=/0x0:1936x1549/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d72fd4bf0af74c0c89d27a5a226dbbf8/internal_photos/bs/2023/r/F/OUySeiT4q8Wj7VjqCMAg/03-as-paisagens-naturais-mais-lindas-do-brasil-chapada-dos-veadeiros-min.jpg");
+    width: 300px;
+    height: 300px;
+    top: 60px;
+    right: 110px;
+    background-position: 45% 88% ;
+}
+.img3{
+    background-image: url(https://www.editoraforum.com.br/wp-content/uploads/2018/07/sanemaento-basico-marco.png);
+    width:180px ;
+    height: 180px;
+    top: 360px;
+    left: 23px;
+    background-position: 0% 0%;
+}
+.img4{
+    background-image: url(https://i.pinimg.com/236x/54/7a/66/547a66a8ec5fef0f2f4f8e5616c13242.jpg);
+    width:180px ;
+    height: 180px;
+    top: 360px;
+    right: 23px;
+    background-position: 50% 50%;
+}
+.img5{
+     background-image: url(https://blog.horizontepetstore.com.br/wp-content/uploads/2024/01/Coryphaspiza_melanotis-Black-masked_Finch-Tipos-de-Passaros-Imagem-de-corpo-de-texto.webp);
+    width:200px ;
+    height: 200px;
+    bottom: 30px;
+    left: 200px;
+    background-position: 40% 30%;
+}
+.img6{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwws7EOWqK85yBo3HOO8_cfNDbgNBc6_0yAQ&s);
+    width:200px ;
+    height: 200px;
+    bottom: 30px;
+    right: 200px;
+    background-position: 40% 30%;
+}
+.footer{
+    background-color: #FFFFFF;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    min-height: fit-content;
+    position: absolute;
+    top: 4000px;
+    z-index: 5;
+}
