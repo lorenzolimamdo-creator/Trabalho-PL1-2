@@ -1,0 +1,276 @@
+:root {
+ --background-thead:#66ba79;
+  --background-body:#47544a;
+  --background-d1:#FFFFFF;
+  --fonte-titulo: .playfair-display-montserrat;
+  --fonte-corpo: sans-serif;
+}
+*{
+box-sizing:border-box;
+}
+body { font-family: var(--fonte-corpo); }
+h1, h2, h3 { font-family: var(--fonte-titulo); }
+#body{
+    background-color: #47544a;
+    margin: 0%;
+}
+html{
+
+font-size:16px;
+
+}
+
+h1,h2{
+
+letter-spacing:1px;
+
+}
+h1{
+
+text-shadow:2px 2px 5px rgba(0,0,0,.4);
+
+}
+p{
+    color: rgb(0, 0, 0);
+    height: 20px;
+
+}
+a{
+    color: black;
+}
+.bar{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 8px;
+    left: 400px;
+    width: 620px;
+    height: 65px;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 6;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.op1{
+    left: 50px;
+}
+.op2{
+    left: 140px;
+}
+.op3{
+    left: 230px;
+}
+.op4{
+    left: 320px;
+}
+.op5{
+    left: 410px;
+}
+.op6{
+    left: 500px;
+}
+.d1{
+    display: inline-block;
+    height: 3800px;
+    width: 1360px;
+    min-height: fit-content;
+    border-radius: 0%;
+    background-color:#FFFFFF ;
+    z-index: 5;
+    position: absolute;
+    left: 45px;
+    top: 110px;
+    border: 8px;
+    border-style:double;
+    border-radius: 85px 85px 85px 85px;
+    padding: 50px;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.814);
+    display: inline-block;
+    width: 1350px;
+    height: 3700px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0%;
+    position: absolute;
+    left: 0px;
+
+}
+.icon{
+    background-image: url(logo_darkmode.png);
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    z-index: 8;
+    position: absolute;
+    top: 30px;
+    left: 162px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 650px;
+    top: 0px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  width: 260px;
+  min-height: 290px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: absolute;
+  left: 180px;
+}
+.card2{
+    height: 430px;
+}
+.avatar1{
+    background-image: url(avataaars.png);
+    display: inline-block;
+    width: 508px;
+    height: 560px;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    z-index: 7;
+}
+.card1{
+    position: absolute;
+    top:350px;
+}
+.avatar2{
+    background-image: url(avataaars2.png);
+    display: inline-block;
+    width: 508px;
+    height: 560px;
+    position: absolute;
+    top: 640px;
+    left: 90px;
+    z-index: 7;
+}
+.card2{
+    position: absolute;
+    top:800px;
+}
+.avatar3{
+    background-image: url(avataaars3.png);
+    display: inline-block;
+    width: 508px;
+    height: 560px;
+    position: absolute;
+    top: 1180px;
+    left: 90px;
+    z-index: 7;
+}
+.card3{
+    position: absolute;
+    top:1350px;
+}
+.avatar4{
+    background-image: url(avataaars4.png);
+    display: inline-block;
+    width: 508px;
+    height: 560px;
+    position: absolute;
+    top: 1700px;
+    left: 90px;
+    z-index: 7;
+}
+.card4{
+    position: absolute;
+    top:1900px;
+}
+.avatar5{
+    background-image: url(avataaars5.png);
+    display: inline-block;
+    width: 508px;
+    height: 560px;
+    position: absolute;
+    top: 2220px;
+    left: 90px;
+    z-index: 7;
+}
+.card5{
+    position: absolute;
+    top:2400px;
+}
+.missao{
+    position: absolute;
+    top: 2800px;
+    left: 5px;
+}
+.numeros{
+    position: absolute;
+    top: 3000px;
+    left: 5px;
+}
+.timeline{
+    position: absolute;
+    top: 3400px;
+    left: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #66ba79;
+  padding: 12px;
+}
+
+thead th {
+  background-color: #66ba79;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+tbody tr:hover {
+  background-color: #FFFFFF;
+  transition: 0.2s;
+}
+
+tfoot td {
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    min-height: fit-content;
+    position: absolute;
+    top: 4000px;
+    z-index: 5;
+}
+
